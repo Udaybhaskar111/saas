@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: Montserrat Alternates;
+    color: white;    
+}
+.container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    // color: white;
+    text-align: center;
+    padding-bottom: 190px;
+}
+.imgTextContainer{
+    // border: 1px solid black;
+    // height: 600px;
+    // width: 1300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: self-end;
+    margin: 100px;
+}
+
+.imageContent{
+    // margin-top:-125px;
+    position: absolute;
+}
+.cardContainer{
+    // border: 1px solid black;
+    // padding: 0%;
+    // margin: 0%;
+    width: auto;
+    max-width: 710px;
+    // margin-right: 127px;
+    // height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+    margin-top: -200px ;
+    position: relative;
+}
+.presonName{
+    // border: 1px solid black;
+    // padding: 0%;
+    margin-top: -20px
+    
+}
+.personDesgnation{
+    font-size:larger;
+    // padding: 0%;
+    // position: absolute;
+    // width: 250px;
+    color: rgb(209, 16, 16)    ;
+}
+.paragraphContent{
+    border: 1px solid black;
+    font-size: 25px;
+    width: 750px;
+    height: 400px;
+    margin-right: 100px;
+}
+.paragraphContent1{
+    border: 1px solid black;
+    font-size: 25px;
+    width: 750px;
+    height: 400px;
+}
+.pargraphText{
+    // padding: 0;
+    text-align: start;
+}
+.registerContainer{
+    // border: 1px solid black;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.registrParagraph{
+    font-size: 25px;
+}
+button{
+    font-size: 25px;
+    border-radius: 12px;
+    margin-top: 25px;
+    color: black;
+    background-color: #fff;
+    font-weight: 600;
+}
+@media screen and (max-width:1343){
+    .imgTextContainer{
+
+    }
+}
+@media screen and (max-width:1171px){
+
+    .paragraphContent{
+        height: 500px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:1100px){
+       .imgTextContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+       .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .imgTextContainer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;       }
+}
